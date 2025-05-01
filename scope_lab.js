@@ -19,7 +19,7 @@ console.log(globalConst); // Output: "I'm a global constant"
 
 //Block Scope
 console.log(blockVar);
-console.log(blockLet);
+console.log(blockLet); // error but you can execute on block are possible
 
 function show(){
 var functionVar = "I'm a block-scoped var";

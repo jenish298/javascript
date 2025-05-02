@@ -12,7 +12,7 @@ if (userRole === "admin") {
 
 
 console.log("Access Level:", accessLevel);
-
+userType="manager";
 switch (userType) {
     case "admin":
         userCategory = "Administrator";
